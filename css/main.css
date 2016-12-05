@@ -10,7 +10,7 @@ body,html{
   overflow: auto;
 }
 /*Main header section*/
-.main-header{
+.header{
 	position: relative;
 	background:url("../img/home.jpg");
 	background-size: cover;
@@ -20,12 +20,7 @@ body,html{
 	border-bottom: 3px solid black;
 }
 .services-header{
-	position: relative;
 	background:url("../img/services.jpg");
-	background-size: cover;
-	height: 600px;
-	margin: auto;
-	border-bottom: 3px solid black;
 }
 .about-header{
 	position: relative;
@@ -53,7 +48,7 @@ body,html{
 	display: inline-block;
 	float: right;
 	margin: 0;
-	font-size: 2em;
+	font-size: 1.4em;
 	color: white;
 	font-weight: 700;
 	padding-right: 10px;
@@ -113,7 +108,7 @@ body,html{
 	display: none;
 }
 .header-text{
-	background-color: rgba(0,0,0,.20);
+	background-color: rgba(0,0,0,.50);
 	text-align: center;
 	color: white;
 	margin: auto;
@@ -313,7 +308,7 @@ footer li{
 	}
 }
 @media only screen and (min-width: 480px) {
-	.main-header{
+	.header{
 		border:15px solid white;
 	}
 	.navigation{
@@ -375,7 +370,7 @@ footer li{
 		width: 75%;
 		font-size: 5em;
 	}
-	.main-header{
+	.header{
 		/*background:url("../img/header.jpg");*/
 		background-size: cover;
 	}
