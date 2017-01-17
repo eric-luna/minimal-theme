@@ -1,5 +1,6 @@
 /*General Styles*/
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif; }
@@ -13,27 +14,17 @@ body, html {
   background-size: cover;
   background-position: center;
   height: 600px;
-  margin: 0 auto;
+  margin: auto;
   border-bottom: 3px solid black; }
 
 .services-header {
   background: url("../img/services.jpg"); }
 
 .about-header {
-  position: relative;
-  background: url("../img/about.jpg");
-  background-size: cover;
-  height: 600px;
-  margin: auto;
-  border-bottom: 3px solid black; }
+  background: url("../img/about.jpg"); }
 
 .contact-header {
-  position: relative;
-  background: url("../img/contact.jpg");
-  background-size: cover;
-  height: 600px;
-  margin: auto;
-  border-bottom: 3px solid black; }
+  background: url("../img/contact.jpg"); }
 
 /*Navigation*/
 ul.topnav {
@@ -148,7 +139,7 @@ ul.topnav li.icon {
   border: 2px solid black;
   font-weight: 700;
   font-size: 1.5em;
-  transition-property: background-color,border, color;
+  transition-property: background-color, border, color;
   transition-duration: 1s;
   transition-timing-function: linear; }
 
